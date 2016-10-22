@@ -1,0 +1,18 @@
+<div id="container">
+<header>
+
+<h1>What's the anagram?</h1>
+<% if @error.present? %>
+  <p class='error'><%= "#{@error}" %></p>
+<% end %>
+ </header>
+ <div id="wordform">
+<form action="/" method="post" class="form">
+  <label class="emph" for="word">Enter A Word</label><br />
+
+  <input type="text" name="word" id="word">
+  <br />
+  <input type="submit" class="btn" value="Show Me Anagrams">
+</form>
+</div>
+</div>
