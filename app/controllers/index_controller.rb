@@ -1,6 +1,7 @@
 get '/' do
     erb :index
 end
+
 post '/' do
     word = params[:word]
     begin
@@ -41,6 +42,6 @@ end
 
 def valid_input(input)
     if input.length == 0
-        raise Exception.new("Word must be more than 0 characters.")
+        raise Exception.new("3 Letter Words ONLY Please.")
     end
 end

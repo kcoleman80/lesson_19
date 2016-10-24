@@ -1,14 +1,14 @@
 production:
   url: <%= ENV['DATABASE_URL'] %>
   
-  development:
+development:
   adapter: postgresql
   database: anagrams_development
   pool: 5
   host: localhost
   username: CCM
   password: nico
-    
+
 test:
   adapter: postgresql
   database: anagrams_test

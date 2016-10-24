@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 require 'rubygems'
 require 'bundler'
+
 gem 'activerecord'
 gem 'byebug'
 
