@@ -1,14 +1,14 @@
 <div id="container">
 <header>
 
-<h1>What's the anagram?</h1>
+<h1>Anagram Generator</h1>
 <% if @error.present? %>
   <p class='error'><%= "#{@error}" %></p>
 <% end %>
  </header>
  <div id="wordform">
 <form action="/" method="post" class="form">
-  <label class="emph" for="word">Enter A Word</label><br />
+  <label class="emph" for="word">Enter A 3 Letter Word</label><br />
 
   <input type="text" name="word" id="word">
   <br />
