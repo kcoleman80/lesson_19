@@ -52,6 +52,6 @@ def all_letters(str)
     # Use 'str[/[a-zA-Z]*/] == str' to let all_letters
     # yield true for the empty string
     if str[/[a-zA-Z]+/]  != str
-        raise Exception.new("Word must be letters only.")
+        raise Exception.new("Alphabetic letters only.")
     end
 end
