@@ -3,7 +3,7 @@ production:
   
 development:
   adapter: postgresql
-  database: anagrams_development
+  database: kelly_anagrams_development
   pool: 5
   host: localhost
   username: CCM
@@ -11,7 +11,7 @@ development:
 
 test:
   adapter: postgresql
-  database: anagrams_test
+  database: kelly_anagrams_test
   pool: 5
   host: localhost
   username: CCM

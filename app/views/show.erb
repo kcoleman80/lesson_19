@@ -1,6 +1,6 @@
-<div class="col-md-6 col-md-offset-3 center">
-  <h1 >Anagrams for <%= "#{@word}" %></h1>
-  <ul class="list">
+<div class="show_anagrams">
+  <h1 >Anagrams for <%= "#{@word.upcase}" %></h1>
+<ul class="list">
     <% if !@anagrams.nil? %>
         <% @anagrams.each do |item| %>
           <li>
@@ -11,4 +11,4 @@
         <%= "No Anagrams for this word" %>
     <% end %>
   </ul>
-</div> 
+</div>
