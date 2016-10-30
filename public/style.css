@@ -1,0 +1,146 @@
+body {
+	background:#f8f8f8;
+	background:url('images/pattern.png');
+	font-family:'montserrat', arial;
+}
+
+/*anagram homepg*/
+
+body {background:url('/images/tiles-01.png');
+  display: inline-block;
+font-family:'montserrat', arial;
+height: 100%;
+width: 100%;
+}
+
+.welcome{
+  font-family: Montserrat;
+  color: #FF0049;
+  font-size: 54px;
+  text-align: center;
+  margin: auto;
+}
+
+.button {
+  box-shadow: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  font-size: 16px;
+  display: block;
+  margin: auto;
+
+}
+
+.wrapper {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.label  {
+  display: block;
+  margin: 0 auto;
+  width: 90%;
+  text-align: center;
+  padding: 5px;
+}
+
+
+input {
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
+
+
+
+.button--submit {
+  background: #FF0049;
+  color: white;
+  margin: auto;
+  width: 50%
+}
+
+.show_anagrams h1 {
+  font-family: Montserrat;
+  color: #FF0049;
+  font-size: 54px;
+  text-align: center;
+  margin: auto;
+}
+
+img {
+  margin: 0 auto;
+  display: block;
+
+}
+
+.list li {
+  font-family: Montserrat;
+  color: #FF0049;
+  font-size: 54px;
+  text-align: center;
+  margin: auto; 
+}
+
+.show_anagrams h1 span {
+  font-family: Montserrat;
+  color: #FF0049;
+  font-size: 70px;
+  text-align: center;
+}
+
+.error {
+  color: red;
+  font-size: 26px;
+  border: dashed red;
+  width: 320px;
+
+}
+
+.table {
+  border: none;
+
+}
+
+.title_word_table {
+  font-family: Montserrat;
+  color: #FF0049;
+  font-size: 36px;
+  text-align: center;
+  margin: auto;
+
+}
+
+.text-center {
+  text-align: center;
+  margin: auto;
+  font-family: Montserrat;
+  color: #FF0049;
+  font-size: 16px;
+}
+
+.about_word h1 span {
+  font-family: Montserrat;
+  color: #FF0049;
+  font-size: 70px;
+  text-align: center;
+}
+
+.about_word h1 {
+  font-family: Montserrat;
+  color: #FF0049;
+  font-size: 54px;
+  text-align: center;
+  margin: auto;
+}
+
+
+
+.add_new {
+  font-family: Montserrat;
+  color: #FF0049;
+  font-size: 48px;
+  text-align: center;
+  margin: auto;
+}
