@@ -1,16 +1,20 @@
-body {
-	background:#f8f8f8;
-	background:url('images/pattern.png');
-	font-family:'montserrat', arial;
-}
+
 
 /*anagram homepg*/
-
+.title {
+  font-family: Montserrat;
+  color: #FF0049;
+  font-size: 36px;
+  text-align: center;
+  margin: auto;
+}
 body {background:url('/images/tiles-01.png');
   display: inline-block;
-font-family:'montserrat', arial;
-height: 100%;
-width: 100%;
+  font-family: Montserrat;
+  color: #FF0049;
+  font-size: 54px;
+  text-align: center;
+  margin: auto;
 }
 
 .welcome{
